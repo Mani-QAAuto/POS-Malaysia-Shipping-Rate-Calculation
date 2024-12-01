@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CacuateShippingRatelSuite">
+	<test thread-count="1" name="CacuateShippingRateTest">
+		<classes>
+			<class name="com.Tests.caluculateRate">
+				<methods>
+					<include name="LaunchBrowser"></include>
+					<include name="CaluclateRate"></include>
+					<include name="VerifyQuotes"></include>
+					<include name="TearDown"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	CacuateShippingRateTest -->
+</suite> <!--
+CacuateShippingRatelSuite -->

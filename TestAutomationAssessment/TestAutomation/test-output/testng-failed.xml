@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CacuateShippingRatelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CacuateShippingRateTest(failed)">
+    <classes>
+      <class name="com.Tests.caluculateRate">
+        <methods>
+          <include name="CaluclateRate"/>
+          <include name="LaunchBrowser"/>
+          <include name="TearDown"/>
+          <include name="VerifyQuotes"/>
+        </methods>
+      </class> <!-- com.Tests.caluculateRate -->
+    </classes>
+  </test> <!-- CacuateShippingRateTest(failed) -->
+</suite> <!-- Failed suite [CacuateShippingRatelSuite] -->
